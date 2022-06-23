@@ -46,10 +46,10 @@
               <a class="nav-link" href="index.php">Home</a>
             </li>
             <li class="nav-item me-4">
-              <a class="nav-link" href="templates/event.php">All Event</a>
+              <a class="nav-link" href="models/page-event.php">All Event</a>
             </li>
             <li class="nav-item me-4">
-              <a class="nav-link" href="templates/dashboard.php">Dashboard</a>
+              <a class="nav-link" href="models/page-dashboard.php">Dashboard</a>
             </li>
           </ul>
         </div>
