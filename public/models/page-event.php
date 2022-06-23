@@ -51,7 +51,7 @@ include 'connection.php';
                             <a class="nav-link" href="page-event.php">All Event</a>
                         </li>
                         <li class="nav-item me-4">
-                            <a class="nav-link" href="dashboard.php">Dashboard</a>
+                            <a class="nav-link" href="page-dashboard.php">Dashboard</a>
                         </li>
                     </ul>
                 </div>

@@ -44,7 +44,7 @@ include 'connection.php';
                             <a class="nav-link" href="page-event.php">All Event</a>
                         </li>
                         <li class="nav-item me-4">
-                            <a class="nav-link" href="dashboard.php">Dashboard</a>
+                            <a class="nav-link" href="page-dashboard.php">Dashboard</a>
                         </li>
                     </ul>
                 </div>
@@ -58,7 +58,7 @@ include 'connection.php';
                 <h3>Data List All Event</h3>
             </div>
             <div class="col-lg-4">
-                <a href="formconcert.php" class="btn btn-primary float-end"><i class="fa-solid fa-plus-circle"></i> Add New</a>
+                <a href="form-add-concert.php" class="btn btn-primary float-end"><i class="fa-solid fa-plus-circle"></i> Add New</a>
             </div>
         </div>
 

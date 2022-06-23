@@ -1,10 +1,5 @@
 <?php
 
-// $db_host = "localhost";
-// $db_user = "root";
-// $db_pass = "";
-// $db_name = "timbiebs";
-
 const DB_HOST = "localhost";
 const DB_USER = "root";
 const DB_PASS = "";
