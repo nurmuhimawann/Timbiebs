@@ -11,10 +11,4 @@
 </p>
 <br>
 
-# Timbiebs Demo App
-
-#### [**Click here to view my project**](https://timbiebs.herokuapp.com/)
-
-<br>
-
 ## uas202410101070 - Projek Akhir PWEB
