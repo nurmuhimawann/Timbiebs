@@ -30,7 +30,7 @@ class Concert
             if (file_exists("../asset/img/card/{$row['concert_id']}.png")) {
                 $row['image'] = "../asset/img/card/{$row['concert_id']}.png";
             } else {
-                $row['image'] = "../asset/img/primary.png";
+                $row['image'] = "../asset/img/no_image.png";
             }
             array_push($data, $row);
         }
@@ -140,10 +140,10 @@ class Concert
 
         $data = [];
         while ($row = $sql->fetch_assoc()) {
-            if (file_exists("img/{$row['concert_id']}.png")) {
-                $row['image'] = "img/{$row['concert_id']}.png";
+            if (file_exists("../asset/img/card/{$row['concert_id']}.png")) {
+                $row['image'] = "../asset/img/card/{$row['concert_id']}.png";
             } else {
-                $row['image'] = "../static/img/primary.png";
+                $row['image'] = "../asset/img/no_image.png";
             }
             array_push($data, $row);
         }

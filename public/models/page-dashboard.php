@@ -91,7 +91,7 @@ include 'connection.php';
                                     <td><?= $row['venue'] ?></td>
                                     <td><?= $row['country'] ?></td>
                                     <td>
-                                        <a href='formconcert.php?action=update&id=<?= $row['concert_id'] ?>' class='btn btn-outline-primary btn-sm mr-3'><i class='fa-solid fa-edit'></i> Ubah</a>
+                                        <a href='form-add-concert.php?action=update&id=<?= $row['concert_id'] ?>' class='btn btn-outline-primary btn-sm mr-3'><i class='fa-solid fa-edit'></i> Ubah</a>
                                         <a href='#' class='btn btn-outline-danger btn-sm btn-delete' data-id='<?= $row['concert_id'] ?>'><i class='fa-solid fa-trash'></i> Hapus</a>
                                     </td>
                                 </tr>

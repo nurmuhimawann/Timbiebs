@@ -66,7 +66,7 @@
             <div class="row mb-3">
                 <div class="offset-sm-2 col-sm-10">
                     <button type="submit" class="btn btn-primary">Submit</button>
-                    <a href="index.php" class="btn btn-outline-secondary">
+                    <a href="page-dashboard.php" class="btn btn-outline-secondary">
                         <i class="fas fa-arrow-left"></i> Back
                     </a>
                 </div>
@@ -119,7 +119,7 @@
                             data: formData,
                             success: function(data) {
                                 alert("Data concert berhasil diubah");
-                                window.location.href = "dashboard.php";
+                                window.location.href = "page-dashboard.php";
                             },
                             error: function(data) {
                                 alert("Data Concert gagal diubah");
